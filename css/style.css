@@ -1,0 +1,54 @@
+@font-face {
+font-family: Minecraft-font;
+src: url(fonts/pompadur.eot);
+src: local(minecraft-font), url(../fonts/mcfont.ttf);
+}
+.mc-font {
+  font-family: Minecraft-font, 'Comic Sans MS', cursive;
+  color: #FFFF55;
+  text-shadow: 3px 3px #3F3F15;
+}
+
+body {
+  background-image: url(../images/bg.png);
+  background-size: 100%;
+  background-color: red;
+ }
+
+.round {
+  border-radius: 100px;
+  box-shadow: 0 0 0 , 0 0 10px #333; 
+ }
+ 
+ .button {
+ font-family: Minecraft-font, 'Comic Sans MS', cursive;
+ background-color: #c6c6c6;
+ height: 60px;
+ width: 90%;
+ outline: 1.9px solid black;
+ position: relative;
+ margin: 0;
+ display: inline-block;
+ background-repeat: repeat;
+ padding: 0;
+ text-align: center;
+ color: #4c4c4c;
+ border-bottom: 1.9px solid #646263;
+ border-right: 1.9px solid #646263;
+ border-left: 1.9px solid #fff;
+ border-top: 1.9px solid #fff;
+ box-sizing: border-box;
+ font-size: 16px;
+ margin-top: 2.3%;
+ }
+ 
+ .button:hover {
+ background-color: #228207;
+  outline: 1.9px solid white;
+ border-bottom: 1.9px solid #26c417;
+ border-right: 1.9px solid #26c417;
+ border-left: 1.9px solid #094c07;
+ border-top: 1.9px solid #094c07;
+ color: white;
+ }
+ 
