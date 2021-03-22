@@ -13,19 +13,19 @@ src: local(minecraft-font), url(../fonts/mcfont.ttf);
 body {
   background-image: url(../images/bg.png);
   background-size: 100%;
-  background-color: red;
+  background-color: #0c1d49;
  }
 
 .round {
   border-radius: 100px;
-  box-shadow: 0 0 0 , 0 0 10px #333; 
+  box-shadow: 0 0 0, 0 0 30px #000; 
  }
  
  .button1 {
  font-family: Minecraft-font, 'Comic Sans MS', cursive;
  background-color: #c6c6c6;
  height: 60px;
- width: 95%;
+ width: 320px;
  outline: 1.9px solid black;
  position: relative;
  margin: 0;
@@ -43,6 +43,16 @@ body {
  margin-top: 10%;
  }
  
+ .button:span {
+ background-color: #228207;
+  outline: 1.9px solid white;
+ border-bottom: 1.9px solid #26c417;
+ border-right: 1.9px solid #26c417;
+ border-left: 1.9px solid #094c07;
+ border-top: 1.9px solid #094c07;
+ color: white;
+ }
+ 
  .button1:hover {
  background-color: #228207;
   outline: 1.9px solid white;
@@ -57,7 +67,7 @@ body {
  font-family: Minecraft-font, 'Comic Sans MS', cursive;
  background-color: #c6c6c6;
  height: 60px;
- width: 95%;
+ width: 320px;
  outline: 1.9px solid black;
  position: relative;
  margin: 0;
@@ -73,6 +83,16 @@ body {
  box-sizing: border-box;
  font-size: 16px;
  margin-top: 2.3%;
+ }
+ 
+ .button:span {
+ background-color: #228207;
+  outline: 1.9px solid white;
+ border-bottom: 1.9px solid #26c417;
+ border-right: 1.9px solid #26c417;
+ border-left: 1.9px solid #094c07;
+ border-top: 1.9px solid #094c07;
+ color: white;
  }
  
  .button:hover {
