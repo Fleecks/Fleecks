@@ -85,12 +85,3 @@ body {
  color: white;
  }
   
- 
- #footer {
-  font-family: Minecraft-font, 'Comic Sans MS', cursive;
-  color: #FFF;
-  position: fixed;
-  left: 40%; bottom: 0px;
-  padding: 0px;
-  height: 40px;
- }
