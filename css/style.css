@@ -8,6 +8,19 @@ src: local(minecraft-font), url(../fonts/mcfont.ttf);
   font-family: Minecraft-font, 'Comic Sans MS', cursive;
   color: #FFFF55;
   text-shadow: 3px 3px #3F3F15;
+  animation: pop 0.58s infinite;
+  -webkit-animation: pop 0.58s infinite;
+  }
+  @keyframes pop {
+  from {
+  transform:scale(1)
+  }
+  50% {
+  transform:scale(1.2)
+  }
+  to {
+  transform:scale(1)
+  }
 }
 
 body {
@@ -25,7 +38,7 @@ body {
  font-family: Minecraft-font, 'Comic Sans MS', cursive;
  background-color: #c6c6c6;
  height: 60px;
- width: 95%;
+ width: 320px;
  outline: 1.9px solid black;
  position: relative;
  margin: 0;
@@ -67,7 +80,7 @@ body {
  font-family: Minecraft-font, 'Comic Sans MS', cursive;
  background-color: #c6c6c6;
  height: 60px;
- width: 95%;
+ width: 320px;
  outline: 1.9px solid black;
  position: relative;
  margin: 0;
@@ -104,4 +117,4 @@ body {
  border-top: 1.9px solid #094c07;
  color: white;
  }
-  
+ 
