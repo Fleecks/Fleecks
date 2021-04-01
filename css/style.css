@@ -27,6 +27,7 @@ body {
   background-image: url(../images/bg.png);
   background-size: 100%;
   background-color: #0c1d49;
+  overflow: hidden;
  }
 
 .round {
