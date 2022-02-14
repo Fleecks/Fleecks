@@ -1,121 +1,76 @@
 @font-face {
-font-family: Minecraft-font;
-src: url(fonts/pompadur.eot);
-src: local(minecraft-font), url(../fonts/mcfont.ttf);
-}
-
-.mc-font {
-  font-family: Minecraft-font, 'Comic Sans MS', cursive;
-  color: #FFFF55;
-  text-shadow: 3px 3px #3F3F15;
-  animation: pop 0.58s infinite;
-  -webkit-animation: pop 0.58s infinite;
-  }
-  @keyframes pop {
-  from {
-  transform:scale(1)
-  }
-  50% {
-  transform:scale(1.2)
-  }
-  to {
-  transform:scale(1)
-  }
+font-family: mcfont;
+src: url(../fonts/mcfont.ttf);
 }
 
 body {
   background-image: url(../images/bg.png);
   background-size: 100%;
   background-color: #0c1d49;
-  overflow: hidden;
  }
 
-.round {
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
+
+.avatar {
   border-radius: 100px;
-  box-shadow: 0 0 0, 0 0 30px #000; 
+  box-shadow: 0 0 30px rgba(0, 0, 0, .4); 
  }
  
- .button1 {
- font-family: Minecraft-font, 'Comic Sans MS', cursive;
- background-color: #c6c6c6;
+.nickname {
+  color: #FFFF55;
+  text-shadow: 3px 3px #3F3F15;
+  font-size: 17px;
+  margin-top: -10px;
+  font-family: mcfont;
+  animation: pop 0.58s infinite;
+ }
+@keyframes pop {
+  from {
+  transform:scale(0.8)
+  }
+  50% {
+  transform:scale(1)
+  }
+  to {
+  transform:scale(0.8)
+  }
+}
+ 
+.button {
+ background: #c6c6c6;
+ color: #4c4c4c;
  height: 60px;
  width: 320px;
+ margin-bottom: -10px;
+ font-family: mcfont;
  outline: 1.9px solid black;
- position: relative;
- margin: 0;
- display: inline-block;
- background-repeat: repeat;
- padding: 0;
  text-align: center;
- color: #4c4c4c;
  border-bottom: 1.9px solid #646263;
  border-right: 1.9px solid #646263;
  border-left: 1.9px solid #fff;
  border-top: 1.9px solid #fff;
- box-sizing: border-box;
  font-size: 16px;
- margin-top: 10%;
- }
+}
  
- .button:span {
- background-color: #228207;
-  outline: 1.9px solid white;
+.button:hover {
+ background: #228207;
+ color: #fff;
+ outline: 1.9px solid white;
  border-bottom: 1.9px solid #26c417;
  border-right: 1.9px solid #26c417;
  border-left: 1.9px solid #094c07;
  border-top: 1.9px solid #094c07;
- color: white;
+}
+
+.content {
+  height: 100px;
+  margin-top: 10%;
  }
  
- .button1:hover {
- background-color: #228207;
-  outline: 1.9px solid white;
- border-bottom: 1.9px solid #26c417;
- border-right: 1.9px solid #26c417;
- border-left: 1.9px solid #094c07;
- border-top: 1.9px solid #094c07;
- color: white;
- }
- 
- .button {
- font-family: Minecraft-font, 'Comic Sans MS', cursive;
- background-color: #c6c6c6;
- height: 60px;
- width: 320px;
- outline: 1.9px solid black;
- position: relative;
- margin: 0;
- display: inline-block;
- background-repeat: repeat;
- padding: 0;
- text-align: center;
- color: #4c4c4c;
- border-bottom: 1.9px solid #646263;
- border-right: 1.9px solid #646263;
- border-left: 1.9px solid #fff;
- border-top: 1.9px solid #fff;
- box-sizing: border-box;
- font-size: 16px;
- margin-top: 2.3%;
- }
- 
- .button:span {
- background-color: #228207;
-  outline: 1.9px solid white;
- border-bottom: 1.9px solid #26c417;
- border-right: 1.9px solid #26c417;
- border-left: 1.9px solid #094c07;
- border-top: 1.9px solid #094c07;
- color: white;
- }
- 
- .button:hover {
- background-color: #228207;
-  outline: 1.9px solid white;
- border-bottom: 1.9px solid #26c417;
- border-right: 1.9px solid #26c417;
- border-left: 1.9px solid #094c07;
- border-top: 1.9px solid #094c07;
- color: white;
+.aan {
+  margin-bottom: 60px;
  }
  
